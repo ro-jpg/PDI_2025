@@ -1,17 +1,17 @@
 rm(list=ls())
-setwd("\\\\fireblade/gabinete/PERFIL/petala.tuy/Desktop/Petala_files/ecinstant/sharp")
+setwd("C:/Users/Roberto/Documents/ECMETRICS/Read eCInstant.R", local = TRUE, encoding = "utf-8")
 
 
 output <- "Crosstabs Sharp.xlsx"
 
 file <- "HBO Sharp Objects S1 POST BRA datamap_319554.xlsx"
 
-source("\\\\fireblade/gabinete/PERFIL/petala.tuy/Desktop/Petala_files/ecinstant/Read eCInstant.R", local = TRUE, encoding = "utf-8")
+source("C:/Users/Roberto/Documents/ECMETRICS/Read eCInstant.R", local = TRUE, encoding = "utf-8")
 d1 <-  d
 qn1 <- qn
 
 file <- "HBO Sharp Objects S1 POST LATAM datamap_319562.xlsx"
-source("\\\\fireblade/gabinete/PERFIL/petala.tuy/Desktop/Petala_files/ecinstant/Read eCInstant.R", local = TRUE, encoding = "utf-8")
+source("C:/Users/Roberto/Documents/ECMETRICS/Read eCInstant.R", local = TRUE, encoding = "utf-8")
 
 
 if(all(colnames(d1) %in% colnames(d)) &
@@ -34,6 +34,6 @@ rm(radios, r, radio)
 
 
 
-source("\\\\fireblade/gabinete/PERFIL/petala.tuy/Desktop/Petala_files/ecinstant/HBO Series.R", local = TRUE, encoding = "utf-8")
-source("\\\\fireblade/gabinete/PERFIL/petala.tuy/Desktop/Petala_files/ecinstant/Process R.R", local = TRUE, encoding = "utf-8")
-source("\\\\fireblade/gabinete/PERFIL/petala.tuy/Desktop/Petala_files/ecinstant/Write R Excel.R",local = TRUE, encoding = "utf-8")
+source("C:/Users/Roberto/Documents/ECMETRICS/Read eCInstant.R", local = TRUE, encoding = "utf-8")
+source("C:/Users/Roberto/Documents/ECMETRICS/Read eCInstant.R", local = TRUE, encoding = "utf-8")
+source("C:/Users/Roberto/Documents/ECMETRICS/Read eCInstant.R", local = TRUE, encoding = "utf-8")
