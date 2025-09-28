@@ -1,5 +1,5 @@
 rm(list=ls())
-setwd("C:/Users/Roberto/Documents/ECMETRICS/Read eCInstant.R", local = TRUE, encoding = "utf-8")
+setwd("C:/Users/Roberto/Documents/ECMETRICS/Read eCInstant.R")
 
 
 output <- "Crosstabs Sharp.xlsx"
